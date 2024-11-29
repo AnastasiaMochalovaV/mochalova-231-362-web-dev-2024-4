@@ -1,0 +1,186 @@
+@font-face {
+	font-family: 'Sverdlovsk';
+	src: url('../fonts/sverdlovsk.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sverdlovsk.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sverdlovsk.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sverdlovsk.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sverdlovsk.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sverdlovsk.svg#sverdlovsk') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body {
+    margin: 0;
+    padding-top: 70px;
+    background-color: #DEDEDE;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+header {
+    background-color: #1D1D1D;
+    font-size: 20px;
+    font-weight: lighter;
+    width: 100%;
+    height: 70px;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+.menu {
+    padding-top: 20px;
+	text-align: center;
+}
+
+
+.menu a:active {
+    color: rgb(234, 109, 196);
+}
+
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.buttons {
+    top: 21px;
+	position: absolute;
+	right: 100px;
+    
+}
+
+.button {
+    color: white;
+    border: 1.5px solid rgb(152, 152, 152);
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 2px; 
+}
+
+main {
+    font-size: 24px;
+    font-weight: lighter;
+    padding-bottom: 50px;
+}
+
+main h1 {
+    font-size: 32px;
+    font-weight: lighter;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #1D1D1D;
+}
+
+main h2 {
+    font-size: 128px;
+    font-weight: normal;
+    margin: 0;
+    font-family: 'Sverdlovsk';
+    color: #1D1D1D;
+}
+
+.foto {
+    height: 860px;
+    background-image: url(../images/foto1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.home {
+    height: 523px;
+    padding-left: 150px;
+    padding-right: 100px;
+    margin-top: 300px;
+}
+
+.about {
+    background-image: url(../images/fon1.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 810px;
+}
+
+.border-page {
+    padding-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.about h2 {
+    color: white;
+}
+
+.about p {
+    color: white;
+}
+
+.about img {
+    width: 460px;
+    height: 598.64px;
+}
+
+.info-about {
+    display: flex;
+    justify-content: center; /*Выравнивание по горизонтали */
+}
+
+.border-text {
+    padding-top: 60px;
+    padding-right: 60px;
+}
+
+.skills p {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    border: 1px solid #1D1D1D; 
+    margin: 40px auto;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #1D1D1D;
+}
+
+th {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.footer {
+    background-color: #1D1D1D;
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.border-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+
+

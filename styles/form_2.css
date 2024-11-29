@@ -1,0 +1,128 @@
+@font-face {
+	font-family: 'Sverdlovsk';
+	src: url('../fonts/sverdlovsk.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sverdlovsk.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sverdlovsk.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sverdlovsk.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sverdlovsk.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sverdlovsk.svg#sverdlovsk') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body {
+    margin: 0;
+    background-color: #DEDEDE;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+header {
+    background-color: #1D1D1D;
+    font-size: 20px;
+    font-weight: lighter;
+    width: 100%;
+    height: 70px;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+.menu {
+    padding-top: 20px;
+	text-align: center;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.fon {
+    background-image: url(../images/fon3.jpg);
+}
+
+main {
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: 'Sverdlovsk';
+}
+
+.form-group {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: white;
+    text-align: center;
+    max-width: 600px;
+    padding: 30px;
+    margin: 20px auto;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.button-main {
+    margin-top: 20px;
+    background-color: #1D1D1D;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    width: 250px;
+    border-radius: 2px;
+}
+
+
+
+/*
+.border-page {
+    padding-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+.border-text {
+    padding-top: 60px;
+    padding-right: 60px;
+}
+}*/
+
+.footer {
+    background-color: #1D1D1D;
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.border-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
